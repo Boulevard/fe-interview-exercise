@@ -17,20 +17,20 @@ You’re going to build an _email verification_ web app that mimics the type of 
 ### Here are the requirements:
 
 - Use this repository as a starting point - it is based off of [Create React App](https://github.com/mui/material-ui/tree/master/examples/material-ui-vite-ts)
-- Expose a form that lets a user enter an email address
+- Create a form that lets a user enter an email address
 - Consume the [DISIFY email verification API](https://www.disify.com/) to find out whether the email address is valid or disposable and expose that information to the user
 - Track the history of validation requests that have been made by the user and show that on the page
-- You can use any libraries you’d like to assist in the task, we’re looking to see how you build apps
 
 ### Some things we look for:
 
-- Tooling (linting, tests, commit linting, etc.)
-- Reasonable styling (nothing too fancy required!)
-- Structuring your code in components
-- Creating well-defined boundaries between the data-layer and UI-layer
-- Using conventional state management techniques
-- Small, atomic commits
-- Setting up the application be maintainable, extensible, and easy for other developers to contribute to
+- The application is feature complete and bug free - we value attention to detail and care about the quality of our work.
+- You added linting and style controls - we care about consistent styles and engineered controls to enforce them.
+- You added tests - we care about the quality of our code and put controls in place to ensure quality now and in the future.
+- You used external libraries where appropriate - we don’t want to reinvent the wheel and would rather spend our time investing in what truly adds value to our customers. Consider component libraries, network libraries, state libraries, etc.
+- You used clean code principles and component composition - we prioritize clean code to enhance readability, maintainability, and scalability.
+- You used TypeScript to help achieve clean code - we use Typescript to enhance readability, maintainability, and code safety.
+- You added accessibility controls - our mission is to make self care accessible to ALL. This includes things like supporting screen readers and keyboard form navigation
+- You commit your work in small, atomic commits - we practice continuous integration and deployment through small, incrementally deliverable units of work 
 
 ### Running the app
 
